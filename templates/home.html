@@ -1,26 +1,13 @@
 {% extends "template.html" %} {% block body %}
 
-<p>This is the one and only homepage </p>
-{% for i in range(0,dataL) %}
-<p>Id: {{data[i][0]}}</p>
-<p>Username: {{data[i][1]}}</p>
-<p>Password: {{data[i][2]}}</p>
-<p>User Id: {{data[i][3]}}</p>
+<h2>Add To Table</h2>
 
-
-{% endfor %}
-
-<h2>Enter ur Username and password:</h2>
-<form action="/post" method="POST">
-    <input type="text" name="username" id="username">
-    <input type="password" name="password" id="password">
-    <input type="submit" value=" Add to table " />
+<h3>Enter ur Username and password:</h2>
+<form action="/insert" method="POST">
+    <input type="text" name="username" id="username" placeholder="Username" class="form-feild"><br>
+    <input type="password" name="password" id="password" placeholder="Password" class="form-feild"><br>
+    <button type="submit" class="add-btn">Add</button>
 </form>
-
-<center>
-    <h1 style="font-family:verdana;">This is an example </h1>
-</center>
-<h3>pls listen carefully </h3>
-
-
+<br>
+<a href="/users" class="view-btn">View Users</a>
 {% endblock %}

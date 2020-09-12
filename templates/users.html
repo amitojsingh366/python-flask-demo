@@ -1,0 +1,12 @@
+{% extends "template.html" %} {% block body %}
+
+<h2>Read Table</h2>
+{% for i in range(0,dataL) %}
+<p>Id: {{data[i][0]}}</p>
+<p>Username: {{data[i][1]}}</p>
+<p>Password: {{data[i][2]}}</p>
+<p>User Id: {{data[i][3]}}</p>
+
+
+{% endfor %}
+{% endblock %}
