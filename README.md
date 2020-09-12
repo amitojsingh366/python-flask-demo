@@ -37,8 +37,8 @@ This Repo should help you to get a simple Python website setup using the Flask f
                 | uid | VARCHAR-2000 | - |
                 
 ## Setting Up The Test Project
- - ### Ensure steps in [To-Do](/#to-do) are completed
- - ### Run the commands in [Useful Stuff](/#useful-stuff)
+ - ### Ensure steps in [To-Do](https://github.com/amitojsingh366/python-flask-demo#to-do) are completed
+ - ### Run the commands in [Useful Stuff](https://github.com/amitojsingh366/python-flask-demo#useful-stuff)
  - ### Downloading the test project code
     - [ ] Download the code from this repo
        - Code can be downloaded from [here](https://github.com/amitojsingh366/python-flask-demo/archive/master.zip) or by using the button above
