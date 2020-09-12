@@ -21,7 +21,7 @@ This Repo should help you to get a simple Python website setup using the Flask f
           - Select that database to perform operations on it using the following command:
              - ```USE demo;```
           - Create a table called ```users``` in the database with the following command:
-             - ```CREATE TABLE users (id int NOT NULL, username varchar(2000), password varchar(20000), uid VARCHAR(2000), PRIMARY KEY (id));```
+             - ```CREATE TABLE users (id int NOT NULL AUTO_INCREMENT, username varchar(2000), password varchar(2000), uid VARCHAR(2000), PRIMARY KEY (id));```
              - This command will create a tabe called users which contains the following columns:
 
                 | Column | Type | Description |
