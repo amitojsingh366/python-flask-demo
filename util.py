@@ -48,10 +48,8 @@ class action:
                 uid = uid + str(random.randint(0, 9))
                 ii += 1
             a = f"""INSERT INTO `users` (`username`,`password`,`uid`) VALUES ('{uname}','{pwd}','{uid}');"""
-            result = conncursor.execute(a)
             try:
-                result
-                return True
+                conncursor.execute(a)
+                conn.commit()
             except Error as ide:
                 print("Error while Saving To MySql", ide)
-                return False

@@ -1,5 +1,5 @@
 from flask import *
-from use import *
+from util import *
 
 app = Flask(__name__)
 
@@ -8,6 +8,8 @@ app = Flask(__name__)
 @app.route("/home")
 def home():
     td = action.readtable("")
+    if not td:
+        td = [('EMPTY', 'EMPTY', 'EMPTY', 'EMPTY')]
     return render_template("home.html", data=td, dataL=len(td))
 
 
