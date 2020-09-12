@@ -1,0 +1,8 @@
+{% extends "template.html" %} {% block body %}
+<p>This is the one and only homepage </p>
+{% i=0 %} {% while i
+<=l en(d)-1 %} <p>Id: {{data[i][0]}}</p>
+    <p>Username: {{data[i][1]}}</p>
+    <p>Password: {{data[i][2]}}</p>
+    <p>User Id: {{data[i][3]}}</p>
+    {% i+=1 %} {% endfor %} {% endblock %}
