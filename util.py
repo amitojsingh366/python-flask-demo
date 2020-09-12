@@ -34,6 +34,7 @@ class action:
             conncursor.execute(a)
             exist = conncursor.fetchall()
             if exist:
+                print(exist)
                 return exist
 
     def write(self, uname, pwd):

@@ -7,14 +7,10 @@ app = Flask(__name__)
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template("home.html")
-
-@app.route("/users")
-def users():
     td = action.readtable("")
     if not td:
         td = [('EMPTY', 'EMPTY', 'EMPTY', 'EMPTY')]
-    return render_template("users.html", data=td, dataL=len(td))
+    return render_template("home.html", data=td, dataL=len(td))
 
 
 # @app.route("/test")
@@ -22,7 +18,7 @@ def users():
 #     return render_template("test.html")
 
 
-@app.route("/insert", methods=["GET", "POST"])
+@app.route("/post", methods=["GET", "POST"])
 def post():
     if request.method == "POST":
         uname = request.form["username"]
