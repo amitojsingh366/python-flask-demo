@@ -10,8 +10,13 @@ This Repo should help you to get a simple Python website setup using the Flask f
   - [ ] Enure MySQL Community Edition Is Installed  
        - Search For MySQL Command Line
        - If not installed get it from [here](https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.21.0.msi)
+ 
 ## Useful Stuff
 - ### Commands That Will Be Used
+    - #### Python Commands:
+        - [ ] Installing Flask and MySQL-Connector:
+           - Run the following command to install Flask and MySQL-Connector:
+               - ```python -m pip install flask mysql-connector```
     - #### MySQL Commands:
         - [ ] Creating a Database and setting it up:
           - Open MySQL Command Line
@@ -28,6 +33,24 @@ This Repo should help you to get a simple Python website setup using the Flask f
                 | ------ | ------ | ------ | 
                 | id | INT | PRIMARY |
                 | username | VARCHAR-2000 | - |
-                | password | VARCHAR-20000 | - |
+                | password | VARCHAR-2000 | - |
                 | uid | VARCHAR-2000 | - |
-            
+                
+## Setting Up The Test Project
+ - ### Ensure steps in [To-Do](/#to-do) are completed
+ - ### Run the commands in [Useful Stuff](/#useful-stuff)
+ - ### Downloading the test project code
+    - [ ] Download the code from this repo
+       - Code can be downloaded from [here](https://github.com/amitojsingh366/python-flask-demo/archive/master.zip) or by using the button above
+- ### Updating project settings
+   - [ ] Editing the MySQL util file (`util.py`)
+      - Change line `11` in `util.py`:
+         - The feild password should be set to the password that you created while setting MySQL    server up
+            - ```connection = mysql.connector.connect(host="localhost", database="demo", user="root", password="YOUR_PASSWORD_HERE")```
+- ### Running The Server
+   - [ ] Open the folder in which the project is located
+   - [ ] Run the following command to start the server
+      - ```python app.py```
+   - [ ] Go to the website to see the app running
+      - http://127.0.0.1:5000/ 
+      - http://localhost:5000/
