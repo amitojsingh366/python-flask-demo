@@ -54,3 +54,9 @@ This Repo should help you to get a simple Python website setup using the Flask f
    - [ ] Go to the website to see the app running
       - http://127.0.0.1:5000/ 
       - http://localhost:5000/
+## Useful Links
+- CSS: [W3Schools](https://www.w3schools.com/css/)
+- HTML: [W3Schools](https://www.w3schools.com/html/)
+- Python: [W3Schools](https://www.w3schools.com/python/)
+- Flask: [Official Docs](https://flask.palletsprojects.com/en/1.1.x/)
+- MySQL: [MySQLTutorial](https://www.mysqltutorial.org/basic-mysql-tutorial.aspx)
