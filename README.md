@@ -44,13 +44,14 @@ This Repo should help you to get a simple Python website setup using the Flask f
  - ### Downloading the test project code
     - [ ] Download the code from this repo
        - Code can be downloaded from [here](https://github.com/amitojsingh366/python-flask-demo/archive/master.zip) or by using the button above
+       - Extract the zip file downloaded and place the extracted folder somewhere you can remember
 - ### Updating project settings
    - [ ] Editing the MySQL util file (`util.py`)
       - Change line `11` in `util.py`:
          - The feild password should be set to the password that you created while setting MySQL    server up
-            - ```connection = mysql.connector.connect(host="localhost", database="demo", user="root", password="YOUR_PASSWORD_HERE", auth_plugin='mysql_native_password')```
+            - The line should look like: ```connection = mysql.connector.connect(host="localhost", database="demo", user="root", password="YOUR_PASSWORD_HERE", auth_plugin='mysql_native_password')```
 - ### Running The Server
-   - [ ] Open the folder in which the project is located
+   - [ ] Open your project folder in a command line
    - [ ] Run the following command to start the server
       - Open your project folder in a command line and run the following command:
         - ```python app.py```
