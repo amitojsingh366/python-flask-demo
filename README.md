@@ -10,7 +10,11 @@ This Repo should help you to get a simple Python website setup using the Flask f
   - [x] Enure MySQL Community Edition Is Installed  
        - Search For MySQL Command Line
        - If not installed get it from [here](https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.21.0.msi)
-  - [x] Ensure An IDE is installed (I use [Visual Studio Code](https://code.visualstudio.com))
+  - [x] Ensure An IDE is installed (I have given popular ones below)
+       - [Visual Studio Code](https://code.visualstudio.com) <-- The one I use
+       - [Atom](https://atom.io)
+       - [Pycharm](https://www.jetbrains.com/pycharm/)
+       - [Jupyter Notebook](https://jupyter.org/install.html)
  
 ## Useful Stuff
 - ### Commands That Will Be Used
