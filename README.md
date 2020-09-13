@@ -46,7 +46,7 @@ This Repo should help you to get a simple Python website setup using the Flask f
    - [ ] Editing the MySQL util file (`util.py`)
       - Change line `11` in `util.py`:
          - The feild password should be set to the password that you created while setting MySQL    server up
-            - ```connection = mysql.connector.connect(host="localhost", database="demo", user="root", password="YOUR_PASSWORD_HERE")```
+            - ```connection = mysql.connector.connect(host="localhost", database="demo", user="root", password="YOUR_PASSWORD_HERE", auth_plugin='mysql_native_password')```
 - ### Running The Server
    - [ ] Open the folder in which the project is located
    - [ ] Run the following command to start the server
