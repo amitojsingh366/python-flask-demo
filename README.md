@@ -61,9 +61,9 @@ This Repo should help you to get a simple Python website setup using the Flask f
                 | username | VARCHAR-2000 | - |
                 | password | VARCHAR-2000 | - |
                 | uid | VARCHAR-2000 | - |
-  - ### Useful Links
-     - CSS: [W3Schools](https://www.w3schools.com/css/)
-     - HTML: [W3Schools](https://www.w3schools.com/html/)
-     - Python: [W3Schools](https://www.w3schools.com/python/)
-     - Flask: [Official Docs](https://flask.palletsprojects.com/en/1.1.x/)
-     - MySQL: [MySQLTutorial](https://www.mysqltutorial.org/basic-mysql-tutorial.aspx)
+- ### Useful Links
+  - CSS: [W3Schools](https://www.w3schools.com/css/)
+  - HTML: [W3Schools](https://www.w3schools.com/html/)
+  - Python: [W3Schools](https://www.w3schools.com/python/)
+  - Flask: [Official Docs](https://flask.palletsprojects.com/en/1.1.x/)
+  - MySQL: [MySQLTutorial](https://www.mysqltutorial.org/basic-mysql-tutorial.aspx)
