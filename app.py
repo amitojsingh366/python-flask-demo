@@ -28,7 +28,6 @@ def post():
         uname = request.form["username"]
         pwd = request.form["password"]
         action.write("", uname, pwd)
-
         return redirect(url_for("home"))
     else:
         return redirect(url_for("home"))
