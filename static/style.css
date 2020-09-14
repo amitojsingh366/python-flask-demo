@@ -2,15 +2,16 @@ h1,
 h2,
 h3,
 h4,
-p{
-    font-family:verdana;
-}
-body{
-    display: inline;
-    font-family:verdana;
+p {
+    font-family: verdana;
 }
 
-.add-btn{
+body {
+    display: inline;
+    font-family: verdana;
+}
+
+.add-btn {
     height: 40px;
     width: 50px;
     color: #FFFFFF;
@@ -20,21 +21,22 @@ body{
     padding: 10px;
     margin: 10px;
 }
-.add-btn:hover{
-    color:  #029902;
+
+.add-btn:hover {
+    color: #029902;
     background-color: #00ff002f;
     border: 1px solid #029902;
     border-radius: 5px;
 }
 
-.add-btn:focus{
-    color:  #029902;
+.add-btn:focus {
+    color: #029902;
     background-color: #00ff002f;
     border: 1px solid #029902;
     border-radius: 5px;
 }
 
-.form-feild{
+.form-feild {
     height: 40px;
     width: 200px;
     border: 1px solid #2e2e2e;
@@ -43,7 +45,7 @@ body{
     margin: 10px;
 }
 
-.view-btn{
+.view-btn {
     height: 40px;
     width: 80px;
     color: #FFFFFF;
@@ -53,16 +55,17 @@ body{
     padding: 10px;
     margin: 10px;
 }
-.view-btn:hover{
+
+.view-btn:hover {
     color: #032bda;
-    background-color:#002efc38;
+    background-color: #002efc38;
     border: 1px solid #032bda;
     border-radius: 5px;
 }
 
-.view-btn:focus{
+.view-btn:focus {
     color: #032bda;
-    background-color:#002efc38;
+    background-color: #002efc38;
     border: 1px solid #032bda;
     border-radius: 5px;
 }
