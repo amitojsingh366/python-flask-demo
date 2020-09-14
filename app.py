@@ -16,12 +16,6 @@ def users():
         td = [('EMPTY', 'EMPTY', 'EMPTY', 'EMPTY')]
     return render_template("users.html", data=td, dataL=len(td))
 
-
-# @app.route("/test")
-# def test():
-#     return render_template("test.html")
-
-
 @app.route("/insert", methods=["GET", "POST"])
 def post():
     if request.method == "POST":
