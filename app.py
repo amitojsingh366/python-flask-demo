@@ -9,12 +9,14 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")
 
+
 @app.route("/users")
 def users():
     td = action.readtable("")
     if not td:
         td = [('EMPTY', 'EMPTY', 'EMPTY', 'EMPTY')]
     return render_template("users.html", data=td, dataL=len(td))
+
 
 @app.route("/insert", methods=["GET", "POST"])
 def post():

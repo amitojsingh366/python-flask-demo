@@ -8,7 +8,8 @@ import random
 class connect:
     def start(self):
         try:
-            connection = mysql.connector.connect(host="localhost", database="demo", user="root", password="test", auth_plugin='mysql_native_password')
+            connection = mysql.connector.connect(
+                host="localhost", database="demo", user="root", password="test", auth_plugin='mysql_native_password')
             if connection.is_connected():
                 db_Info = connection.get_server_info()
                 print("Connected to MySQL Server version ", db_Info)
