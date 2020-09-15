@@ -45,9 +45,25 @@ class action:
             while ii <= jj:
                 uid = uid + str(random.randint(0, 9))
                 ii += 1
-            a = f"""INSERT INTO `users` (`username`,`password`,`uid`) VALUES ('{uname}','{pwd}','{uid}');"""
-            try:
-                conncursor.execute(a)
-                conn.commit()
-            except Error as ide:
-                print("Error while Saving To MySql", ide)
+            chk = action.chechUid('', uid)
+            if chk:
+                a = f"""INSERT INTO `users` (`username`,`password`,`uid`) VALUES ('{uname}','{pwd}','{uid}');"""
+                try:
+                    conncursor.execute(a)
+                    conn.commit()
+                except Error as ide:
+                    print("Error while Saving To MySql", ide)
+            else:
+                action.write('', uname, pwd)
+
+    def chechUid(self, cuid):
+        conn = connect.start("")
+        if not conn == "fail":
+            conncursor = conn.cursor()
+            a = f"""SELECT * FROM `users` WHERE `uid` = '{cuid}';"""
+            conncursor.execute(a)
+            exist = conncursor.fetchone()
+            if exist:
+                return False
+            else:
+                return True
