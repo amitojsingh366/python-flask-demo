@@ -8,7 +8,7 @@ This Repo should help you to get a simple Python website setup using the Flask f
        - Run the command in Command Prompt (or any other shell) ```python --version```
        - If not installed get it from [here](https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe)
   - [x] Enure MySQL Community Edition Is Installed  
-       - Search For MySQL Command Line
+       - Search For MySQL Command Line Client (It looks like [this](https://cdn.amitoj.net/resources/images/MySQLcmdline.png))
        - If not installed get it from [here](https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.21.0.msi)
   - [x] Ensure An IDE is installed (I have given popular ones below)
        - [Visual Studio Code](https://code.visualstudio.com)   <-----  the one I use
@@ -45,7 +45,7 @@ This Repo should help you to get a simple Python website setup using the Flask f
                    - ```python -m pip install flask mysql-connector mysql-connector-python```
     - #### MySQL Commands:
         - [x] Creating a Database and setting it up:
-          - Open MySQL Command Line
+          - Open MySQL Command Line Client (It looks like [this](https://cdn.amitoj.net/resources/images/MySQLcmdline.png))
           - Login Using The Password you set in setup
           - Create a database called ```demo``` using the following command:
              - ```CREATE DATABASE demo;```
